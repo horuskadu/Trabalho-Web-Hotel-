@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Search Hotels</title>
+    
+</head>
+<body>
+    
+    </div>
+ <!--Formulario de Captura-->
+ <center>
+   
+        <form action="" id="formulario" method="post" name="formulario">
+            <legend>Cadastro Hotel</legend>
+        <div class="input-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Insira seu nome:"/>
+            <br><br>
+            <label for="nome">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Insira seu email:"/>
+            <br><br>
+            <button type="button" class="botao" onclick="validar()">ENVIAR</button>
+        </div>   
+        <!--Validação--> 
+        <script>
+            function validar () {
+                var nome= formulario.nome;
+                if (nome.value ==""){
+                    alert("Nome não informado.");
+                    nome.focus ();
+                
+                    var email= formulario.email;
+                if (email.value ==""){
+                    alert("email não informado.");
+                    email.focus ();
+                
+                }
+                }
+            }
+            
+        </script>
+   </center>
+    <big><h1>Search Hotels</h1></big>
+        <br><br><br>
+<!--Banner de hotéis-->
+        <img src="hotel-banner-design-template-1de13b74017249deddd2c4c37c4dd531_screen.jpg" width="1200" height="350" position="10%">
+        <br><br><br><br>
+<!--Lista de hoteis-->
+        <ol>
+        
+            <big><h1><center>Lista de Hotéis</h1></big>
+        <li>        <h2>Hotel Valadares</h2>
+                <img src="R.jpg" width="400" height="200"> 
+                    <legend>
+                        Suíte com hidromassagem e arcondicionado e frigobar.
+                        <br>
+                        Preço: R$ 199,90 a diária.
+                        <br>
+                        Status: Disponivel.
+                        <br>
+                    <button type="button" class="botao">RESERVAR</button>
+                    </legend>
+    </li>
+        <br><br><br><br></center>
+     
+    <li>        
+                <h2>Hotel Benedito</h2>
+                <img src="hotelkadu.jpg" width="400" height="200"> 
+                <legend>
+                    Suíte com Wifi, arcondicionado e frigobar.
+                    <br>
+                    Preço: R$ 199,90 a diária.
+                    <br>
+                    Local: Barcelona.
+                    <br>
+                    Status: Disponivel.
+                    <br>
+                <button type="button" class="botao">RESERVAR</button>
+                </legend>
+    </li>
+        <br><br><br><br></center>
+        
+    <li> 
+                <h2>Hotel Felixlandia</h2>
+                <img src="142.jpeg" width="400" height="200"> 
+            <legend> Suite com wifi e arcondicionado.
+            <br>
+            Local: Ribeirão do bagre.
+            <br>
+            Preço: R$ 100,00 a diária
+            <br>
+            <button type="button" class="botao">RESERVAR</button>
+            </legend>
+            </li>
+        <br><br><br><br></center>
+        <li>        <h2>Hotel Luxemburgo</h2>
+            <img src="R.jpg" width="400" height="200"> 
+                <legend>
+                    Suíte com Wifi, arcondicionado e frigobar.
+                    <br>
+                    Preço: R$ 180,90 a diária.
+                    <br>
+                    Local: Belo Horizonte
+                    <br>3
+                    Status: Disponivel.
+                    <br>
+                <button type="button" class="botao">RESERVAR</button>
+                </legend>
+                <br><br><br><br></center>
+        </li>
+        <li>        
+            <h2>Hotel Feliz Cidade</h2>
+            <img src="hotelkadu.jpg" width="400" height="200"> 
+            
+            <legend>
+                Suíte com Wifi, arcondicionado e frigobar.
+                <br>
+                Preço: R$ 99,90 a diária.
+                <br>
+                Local: Felixlandia
+                <br>
+                Status: Disponivel.
+                <br>
+            <button type="button" class="botao">RESERVAR</button>
+            </legend>
+</li>
+    <br><br><br><br></center>
+    
+        </ol>
+<!--Rodapé-->
+  
+    <table>
+                    <tr>
+                        <td>Endereço</td>
+                        <td>Serviços</td>
+                        <td>Filiais</td>
+                    </tr>    
+                    <tr>
+                        <td> Av Cristiano Machado,571</td>
+                        <td>Suítes</td>
+                        <td> <a href="https://www.booking.com/" target="_blank">Booking</a></td>
+                    </tr>
+                    <tr>
+                        <td>Bairro:São Paulo</td>
+                        <td>Duplex</td>
+                        <td> <a href="https://hoteis.com/" target="_blank">Hotéis</a></td>
+                    </tr>
+                    <tr>
+                        <td >Belo Horizonte</td>
+                        <td>Apartamentos de luxo</td>
+                        <td ><a href=https://www.trivago.com/ target="_blank">Trivago</a></td>
+                    </tr>
+    </table>
+
+</body>
+</html>

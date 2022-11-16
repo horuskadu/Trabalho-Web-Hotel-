@@ -1,0 +1,58 @@
+
+ 
+ 
+ body {
+    
+    background-image: url("discreto.jpg");
+
+
+ }
+
+
+body {
+    background-size: 100%
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+h3 {color: white;}
+
+i {
+    color: brown
+}
+
+ol{
+    font-size: 20px;
+}
+
+table {
+    background-color:lightblue;
+    border: 1px solid red;
+    padding: 15px;
+    width: 100%;
+    color:white;
+    font-size: 15px;  
+}
+button{
+    background-color: blue;
+    padding: 15px;
+    width: 10%;
+    border-radius: 8px;
+    color:white;
+    font-size: 15px; 
+}
+input{
+    border : 10px solid black;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size:13px;
+    }
+
+    
